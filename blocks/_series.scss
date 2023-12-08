@@ -1,0 +1,85 @@
+
+.desplegable{
+    width: 100%;
+
+    .desplegable-series{
+        width: 100%;
+    }
+
+    .series{
+        display: flex;
+        list-style: none;
+        margin-left: 100px;
+        margin-top: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        flex-wrap: wrap;
+
+        .tipos{
+            margin-top: 40px;
+            flex-wrap: wrap;
+            display: flex;
+        }
+        
+        a{
+            text-decoration: none;
+            font-weight: bolder;
+            color: black;
+            margin-right: 20px;
+        }
+
+        li{
+            margin-right: 10px;
+
+            ul{
+                display: flex;
+                list-style: none;
+            
+            }
+        }
+
+
+        
+    }
+}
+
+
+.galería{
+    width: 100%;
+    display: flex;
+
+    .img_coche{
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        flex-wrap: wrap;
+        width: 100%
+
+        img{
+            width: 200px
+        }
+
+
+        }
+
+        .p1{
+            font-weight: bolder;
+            height: 10px;
+        }
+
+        .p2{
+            color: darkgray;
+        }
+
+        a{
+            text-decoration: none;
+            font-weight: bolder;
+            color: black;
+        }
+    }
+
+
+
+
+
+
+
